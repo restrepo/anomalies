@@ -62,7 +62,7 @@ def main():
         long_description_content_type="text/markdown",
 
         # Python version requirement
-        python_requires=">=3.12",
+        python_requires=">=3.12,<3.15",
 
         # Dependent packages (distributions)
         # See: https://github.com/pypa/pipenv/issues/2171
@@ -70,8 +70,7 @@ def main():
         install_requires=[
             'numpy>=1.23.0; python_version=="3.12"',
             'numpy>=1.24.0; python_version=="3.13"',
-            'numpy>=1.25.0; python_version=="3.14"',
-            'numpy>=1.26.0; python_version=="3.15"'
+            'numpy>=1.25.0; python_version=="3.14"'
         ],
     )
 
